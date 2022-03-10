@@ -1,0 +1,46 @@
+body{
+    background-image: url("https://cdn.webshopapp.com/shops/59733/files/255963209/1000x1000x2/ginger-ray-babyshower-slinger-rosegoud-per-stuk-ba.jpg");
+    height: 650px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+body {
+    font-family: Open Sans;
+}
+ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color: white;
+}
+li {
+    float: left;
+}
+
+
+
+li a {
+    display:block;
+    color: Black;
+    text-align: center;
+    padding:25px 25px ;
+    text-decoration:none;
+}
+
+li a:hover {
+    background-color:#FAB2E5;
+}
+input {
+    width: 34%;
+    padding: 5px 10px;
+    margin: 5px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+
+}

@@ -1,0 +1,68 @@
+
+
+
+body {
+    font-family: Open Sans;
+    background-color: #CBC4FA;
+
+}
+body{
+    height: 650px;
+    background-image: url("https://c8.alamy.com/comp/2GMTH04/pregnant-lady-with-hugs-her-belly-or-mother-waiting-for-the-baby-in-flat-cartoon-design-style-background-of-leaves-vector-illustration-2GMTH04.jpg");
+    background-position:right ;
+    background-repeat: no-repeat;
+    background-size: 65%;
+
+}
+ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color: white;
+}
+
+li {
+    float: left;
+}
+
+
+
+li a {
+    display:block;
+    color: Black;
+    text-align: center;
+    padding:25px 25px ;
+    text-decoration:none;
+}
+
+li a:hover {
+    background-color:#FAB2E5;
+}
+
+input[type=text ] {
+    width: 34%;
+    padding: 5px 10px;
+    margin: 5px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+
+
+
+input[type=submit] {
+    width: 34%;
+    background-color: #B0EDF0;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+
