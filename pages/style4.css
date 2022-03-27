@@ -12,7 +12,9 @@ body {
 }
 
 ul {
+    width: 100%;
     list-style-type: none;
+    display: grid;
     margin:0;
     padding:0;
     overflow:hidden;
@@ -44,6 +46,7 @@ li a:hover {
 
 
 th {
+    width: 5%;
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
@@ -51,4 +54,11 @@ th {
     color: black;
 }
 td {border: 1px solid #ddd;
-padding: 8px;}
+padding: 1px;}
+
+@media(max-width: 1000px){
+    body{
+        background-color: #FAB2E5;
+        background-image: none;
+    }
+}
